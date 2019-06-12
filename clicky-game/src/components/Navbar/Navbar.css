@@ -1,0 +1,18 @@
+.nounderline {
+    text-decoration: none !important
+  }
+  
+  #app-name {
+      font-weight: bold;
+  }
+
+  .bg-dark.navbar-dark.container-fluid.text-center.pt-1.pb-1 {
+    background-color: #192653;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top:5px;
+     height: 75px;
+     width: auto;
+  }
+
+  

@@ -1,0 +1,24 @@
+div.container {
+    background: url("https://nintendosoup.com/how-pokemon-tcg-cards-and-packaging-are-designed/pokemon-tcg-3dcg-how-16/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: auto;
+    padding-top: -20px;
+
+}
+div#root{
+    background-color:#192653;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}

@@ -1,0 +1,31 @@
+.jumbotron {
+	/*  Background fallback in case of IE8 & down, or in case the image doesn't load, such as with slower connections  */
+	background: url("rainbow.png") center center no-repeat fixed #464646;
+	font-family: Serif, Monospace;
+	width: auto;
+	opacity: 0.9;
+}
+
+h1, h4 {
+	color: white;
+	font-weight: bold;
+}
+
+.jumbotron.jumbotron-fluid.text-center {
+	background-color: whitesmoke;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-position: 50% 50%;
+	background-size: 100%;
+
+	
+}
+div.jumbotron.jumbotron-fluid.text-center {
+	padding-top: -120px;
+	padding-bottom: 400px;
+	margin-top:100px;
+
+	
+}
