@@ -1,11 +1,12 @@
-import React from 'react';
-import ImageFileNames from "./components/ImageFileNames";
+import React , { Component } from 'react';
+import ImageFileNames from "./DogImageFile";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
-import ImageBlockListing from "./components/ImageBlockListing";
+import ImageBlockListing from "./components/DogImageBlockListing";
 import Footer from "./components/Footer";
 import './App.css';
 
+//set state to 0 or empty//
 class App extends Component {
 	state = {
     imageFileNames: ImageFileNames,
@@ -22,7 +23,7 @@ class App extends Component {
     }, () => {
       console.log("Rearranged Images at Game Start");
     });
-  }
+  };
 
   handleClick = event => {
     // console.log(event.target); // 
@@ -106,8 +107,7 @@ class App extends Component {
       <ImageBlockListing imageFileNames={this.state.imageFileNames} clickHandler={this.handleClick} gameStatus={this.state.gameStatus} />
       <Footer />
     </div>
-    );
-  }
-}
+   )}
+};
 
 export default App;

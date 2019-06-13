@@ -1,6 +1,5 @@
 .jumbotron {
-	/*  Background fallback in case of IE8 & down, or in case the image doesn't load, such as with slower connections  */
-	background: url("rainbow.png") center center no-repeat fixed #464646;
+	background: url("background.png") center center no-repeat fixed whitesmoke;
 	font-family: Serif, Monospace;
 	width: auto;
 	opacity: 0.9;

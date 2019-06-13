@@ -1,6 +1,6 @@
 import React from "react";
 import "./ImageBlockListing.css";
-import ImageBlock from "../ImageBlock";
+import ImageBlock from "../DogImageBlock";
 
 const ImageBlockListing = (props) => (
 	<div className="container">
